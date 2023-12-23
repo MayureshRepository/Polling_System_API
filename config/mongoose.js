@@ -2,9 +2,7 @@ const mongoose = require('mongoose');
 
 const express = require('express');
 
-
-mongoose.connect('mongodb://localhost:27017/pollingApi');
-//mongoose.connect(`mongodb+srv://mayureshpatrikar24:nkFdihbYPiLMWbJF@issuetracker.gwsdhb5.mongodb.net/?retryWrites=true&w=majority`);
+mongoose.connect(`mongodb+srv://mayureshpatrikar67:0Ss7sn98JCVVracF@cluster0.lxl9v7r.mongodb.net/?retryWrites=true&w=majority`);
 const db= mongoose.connection;
 
 
